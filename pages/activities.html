@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VG - Home</title>
+    <link rel="stylesheet" href="../css/output.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="w-full h-full bg-[#EDEDED]">
+
+    <header class="fixed top-0 left-0 h-[75px] w-full bg-white flex items-center justify-between px-20 max-sm:px-5">
+        <a href="index.html"><img src="../img/Group 1.svg" alt="Logo"></a>
+        <h3>Hello User!</h3>
+    </header>
+
+    <aside class="fixed left-0 top-[75px] h-[calc(100vh-75px)] w-[300px] bg-white">
+        <ul class="mt-10 flex flex-col">
+            <li class="h-[50px] flex pl-10 items-center bg-[#FF9C9C] text-lg"><a href="#"><i class="fa-solid fa-calendar-days mr-5"></i>Activities</a></li>
+            <li class="h-[50px] flex pl-10 items-center text-lg"><a href="#"><i class="fa-solid fa-circle-check mr-5"></i>Reservations</a></li>
+            <li class="h-[50px] flex pl-10 items-center text-lg"><a href="#"><i class="fa-solid fa-arrow-right-from-bracket mr-5"></i>Logout</a></li>
+        </ul>
+    </aside>
+
+
+    <section class="content h-full w-[calc(100% - 300px)] pl-[300px] flex flex-col items-center gap-16">
+
+        <div class="topContent w-full flex justify-between mt-[150px] px-16">
+            <h1 class="text-2xl text-textSpecial">All activities</h1>
+            <form class="w-[250px] h-[40px] bg-white flex items-center rounded-[5px] overflow-hidden">
+                <input type="text" placeholder="Search..." class="w-[80%] h-full border-none outline-none pl-4"><button class="w-[20%] h-full"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+        
+
+        <div class="afficheContent w-[98%] h-full bg-white p-10 flex flex-wrap gap-10 justify-center">
+
+
+            <div class="card w-full max-w-[300px] min-h-[500px] bg-[#EDEDED] hover:translate-y-[-5px] hover:scale-[101%] relative">
+                <div class="h-auto max-h-[50%] w-full">
+                    <img class="min-w-full max-h-full" src="../img/Thailand aesthetics ___ _ _ Have the trip of a… 1-1.svg" alt="">
+                </div>
+                <div class="min-h-[50%] w-full flex flex-col justify-evenly gap-2 p-2">
+                    <h2 class="text-lg">Experience the Magic of Santorini</h2>
+                    <p class="text-sm">Santorini’s iconic views and sunsets offer the perfect escape Santorini’s iconic views and sunsets offer the perfect escape ...</p>
+                    <div class="w-full flex flex-col items-center gap-2"><button class="reserve h-[40px] w-[180px] bg-textSpecial flex justify-center items-center text-white">Reserve</button><h6>(152) orders</h6></div>
+                </div>
+                <form class="reserveSection hidden absolute top-0 left-0 h-full w-full bg-[#ff9c9cea] flex-col justify-center items-center gap-7">
+                    <input type="date" class="w-[80%] h-[40px] rounded-[5px] pl-5">
+                    <div class="flex flex-col gap-5 w-full items-center"><button class="w-[80%] h-[40px] border-[3px] border-white rounded-[5px] hover:bg-white hover:text-[#FF9C9C] transition-all duration-300">Reserve</button>
+                    <button type="button" class="closeReserve w-[80%] h-[40px] text-white bg-[red] rounded-[5px] hover:bg-[#a02222] transition-all duration-300">cancel</button></div>
+                </form>
+            </div>
+
+
+            <div class="card w-full max-w-[300px] min-h-[500px] bg-[#EDEDED] hover:translate-y-[-5px] hover:scale-[101%] relative">
+                <div class="h-auto max-h-[50%] w-full">
+                    <img class="min-w-full max-h-full" src="../img/Thailand aesthetics ___ _ _ Have the trip of a… 1-1.svg" alt="">
+                </div>
+                <div class="min-h-[50%] w-full flex flex-col justify-evenly gap-2 p-2">
+                    <h2 class="text-lg">Experience the Magic of Santorini</h2>
+                    <p class="text-sm">Santorini’s iconic views and sunsets offer the perfect escape Santorini’s iconic views and sunsets offer the perfect escape ...</p>
+                    <div class="w-full flex flex-col items-center gap-2"><button class="reserve h-[40px] w-[180px] bg-textSpecial flex justify-center items-center text-white">Reserve</button><h6>(152) orders</h6></div>
+                </div>
+                <form class="reserveSection hidden absolute top-0 left-0 h-full w-full bg-[#ff9c9cea] flex-col justify-center items-center gap-7">
+                    <input type="date" class="w-[80%] h-[40px] rounded-[5px] pl-5">
+                    <div class="flex flex-col gap-5 w-full items-center"><button class="w-[80%] h-[40px] border-[3px] border-white rounded-[5px] hover:bg-white hover:text-[#FF9C9C] transition-all duration-300">Reserve</button>
+                    <button type="button" class="closeReserve w-[80%] h-[40px] text-white bg-[red] rounded-[5px] hover:bg-[#a02222] transition-all duration-300">cancel</button></div>
+                </form>
+            </div>
+
+           
+
+
+        </div>
+
+
+
+    </section>
+
+    
+
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
