@@ -10,6 +10,7 @@
 </head>
 <body class="w-full h-full bg-[#EDEDED]">
 
+
     <header class="h-[75px] w-full bg-white flex items-center justify-between px-20 max-sm:px-5">
         <a href="index.php"><img src="img/Group 1.svg" alt="Logo"></a>
         <i id="burgerButton" class="fa-solid fa-bars text-textSpecial text-2xl"></i>
@@ -23,6 +24,7 @@
         </ul>
     </header>
 
+    
     <section class="w-full h-[calc(100vh-75px)] flex">
         <div class="homeContent h-full w-1/2 flex flex-col justify-center pl-20 gap-5 max-lg:w-full max-lg:items-center max-lg:pl-0">
             <h5 class="text-lg font-semibold">welcome to,</h5>
