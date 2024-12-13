@@ -36,3 +36,14 @@ span{
 table tr{
     height: 50px;
 }
+
+#bar{
+    display: none !important;
+}
+
+@media (max-width:1024px){
+    #bar{
+        display: block !important ;
+    }
+}
+

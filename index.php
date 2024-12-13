@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VG - Home</title>
     <link rel="stylesheet" href="css/output.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="w-full h-full bg-[#EDEDED]">
 
     <header class="h-[75px] w-full bg-white flex items-center justify-between px-20 max-sm:px-5">
-        <a href="index.html"><img src="img/Group 1.svg" alt="Logo"></a>
+        <a href="index.php"><img src="img/Group 1.svg" alt="Logo"></a>
         <i id="burgerButton" class="fa-solid fa-bars text-textSpecial text-2xl"></i>
         <ul class="menu flex items-center gap-8 text-lg font-medium text-[#424141] static max-lg:absolute max-lg:top-0 max-lg:left-0 max-lg:w-full max-lg:h-full max-lg:bg-white max-lg:flex-col max-lg:justify-center max-lg:gap-16 max-lg:hidden">
             <li class="absolute hidden left-10 top-10 text-textSpecial text-2xl max-lg:block closeMenu"><i class="fa-solid fa-xmark"></i></li>
-            <li><a class="hover:text-[#EB3223] transition-all duration-300" href="index.html">Home</a></li>
+            <li><a class="hover:text-[#EB3223] transition-all duration-300" href="index.php">Home</a></li>
             <li><a class="hover:text-[#EB3223] transition-all duration-300" href="#bestTrips">activities</a></li>
             <li><a class="hover:text-[#EB3223] transition-all duration-300" href="#about">About</a></li>
             <li><a class="hover:text-[#EB3223] transition-all duration-300" href="#contact">Contact</a></li>
@@ -28,7 +28,7 @@
             <h5 class="text-lg font-semibold">welcome to,</h5>
             <h1 class="text-5xl font-bold max-sm:text-3xl"><span>VG</span> travel platform!</h1>
             <p class="text-base text-[#505050] max-lg:text-center max-lg:px-[10vw]">Plan your trips effortlessly with us. Explore exclusive deals on flights, hotels, and tours, and customize your travel experience in just a few clicks.</p>
-            <a class="w-[200px] h-[50px] rounded-[5px] flex justify-center items-center bg-white border-[3px] border-textSpecial mt-10 text-textSpecial hover:bg-textSpecial hover:text-white transition-all duration-200" href="#">Get your trip now!</a>
+            <a class="w-[200px] h-[50px] rounded-[5px] flex justify-center items-center bg-white border-[3px] border-textSpecial mt-10 text-textSpecial hover:bg-textSpecial hover:text-white transition-all duration-200" href="pages/activities.php">Get your trip now!</a>
         </div>
         <div class="homePicture w-1/2 h-full flex justify-center items-center max-lg:hidden">
             <img class="w-[30vw]" src="img/plane ticket.svg" alt="Plan ticket">
@@ -157,6 +157,6 @@
   src="https://code.jquery.com/jquery-3.7.1.js"
   integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
   crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script src="js/scrip.js"></script>
 </body>
 </html>
