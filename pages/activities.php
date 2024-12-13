@@ -109,6 +109,7 @@
                             <div class="min-h-[50%] w-full flex flex-col justify-evenly gap-2 p-2">
                                 <h2 class="text-lg">'.$item['titre'].'</h2>
                                 <p class="text-sm">'.$item['description'].'</p>
+                                <h5 class="text-sm">$'.$item['prix'].'</h5>
                                 <div class="w-full flex flex-col items-center gap-2"><button class="reserve h-[40px] w-[180px] bg-textSpecial flex justify-center items-center text-white">Reserve</button><h6>('.$getCount.') orders</h6></div>
                             </div>
                             <form method="post" class="reserveSection hidden absolute top-0 left-0 h-full w-full bg-[#ff9c9cea] flex-col justify-center items-center gap-3">
